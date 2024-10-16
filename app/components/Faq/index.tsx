@@ -39,7 +39,7 @@ const Faq = () => {
       </h3>
       <p className="text-center lg:text-lg font-normal text-white mb-10">
         Find answers to the most common questions about social casino games.
-        Whether you're new to these games or a seasoned player, we have the information you need!
+        Whether you&apos;re new to these games or a seasoned player, we have the information you need!
       </p>
 
       <div className="mx-auto max-w-7xl">

@@ -1,11 +1,13 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 const Banner = () => {
   return (
     <div className="relative flex items-center justify-center h-screen bg-black" id="home-section">
       {/* Full-Width Background Image */}
-      <img
+      <Image width={600}
+      height={600}
         src="/images/Banner/banneridk.png"
         alt="Casino Environment"
         className="absolute inset-0 w-full h-full object-cover opacity-30"

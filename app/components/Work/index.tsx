@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 const Home = () => {
@@ -25,7 +26,8 @@ const Home = () => {
 
       {/* Game Section */}
       <div className="relative z-10 bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-lg w-full max-w-md mx-auto text-center animate-fade-in-up border-2 border-yellow-500">
-        <img
+        <Image width={400}
+        height={400}
           src={game.imgSrc}
           alt={game.heading}
           className="mx-auto w-32 h-32 lg:w-36 lg:h-36 object-contain mb-4 rounded-full"  // Added border-radius here
