@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-start h-screen bg-black pt-16" id="games">
+    <div className="relative flex flex-col items-center justify-start h-[60vh] sm:h-screen bg-black pt-16" id="games">
       {/* Background and Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80"></div>
 

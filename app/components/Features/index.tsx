@@ -1,26 +1,26 @@
-import Image from "next/image";
+import { FaShieldAlt, FaInfoCircle, FaUserFriends } from "react-icons/fa";
 
 interface Feature {
-  imgSrc: string;
+  icon: React.ReactElement;
   heading: string;
   subheading: string;
 }
 
 const features: Feature[] = [
   {
-    imgSrc: "/images/Features/featureOne.svg",
+    icon: <FaShieldAlt className="text-yellow-400 text-6xl mb-4" />,
     heading: "Security",
     subheading:
       "Your personal information is safeguarded by advanced encryption and security protocols, providing you with a secure and worry-free browsing experience.",
   },
   {
-    imgSrc: "/images/Features/featureTwo.svg",
+    icon: <FaInfoCircle className="text-yellow-400 text-6xl mb-4" />,
     heading: "Informative",
     subheading:
       "Explore social casino games and discover the most popular options, all without any financial obligation.",
   },
   {
-    imgSrc: "/images/Features/featureThree.svg",
+    icon: <FaUserFriends className="text-yellow-400 text-6xl mb-4" />,
     heading: "User-Friendly",
     subheading:
       "Our platform is built to be user-friendly and easy to navigate, allowing visitors to quickly find and read reviews with ease.",
@@ -57,14 +57,8 @@ const Features = () => {
               index % 2 === 0 ? "md:flex-row-reverse" : ""
             }`}
           >
-            <div className="md:w-1/2 p-4">
-              <Image
-                src={feature.imgSrc}
-                alt={feature.heading}
-                width={200} 
-                height={200} 
-                className="rounded-lg shadow-lg object-cover"
-              />
+            <div className="md:w-1/2 p-4 flex justify-center">
+              {feature.icon}
             </div>
             <div className="md:w-1/2 p-4 text-left">
               <h5 className="text-offwhite text-2xl font-bold mb-2">

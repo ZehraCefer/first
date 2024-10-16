@@ -14,13 +14,14 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="images/Logo/gamezone.svg"
+            src="/images/Logo/gamezone.svg"
             alt="Logo"
             width={150} 
-            height={200}
+            height={100}
             className="cursor-pointer"
           />
         </Link>
+
 
         {/* Centered Nav Links */}
         <div className="hidden md:flex space-x-10 text-white text-lg">
@@ -43,7 +44,7 @@ const Navbar = () => {
         <div className="md:hidden text-white">
           <Bars3Icon className="h-8 w-8 cursor-pointer" onClick={() => setIsOpen(true)} />
         </div>
-        
+
         {/* Mobile Drawer */}
         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
           <Drawerdata />

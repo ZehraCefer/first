@@ -28,7 +28,7 @@ const Footer = () => {
             />
             <h2 className="text-lg font-semibold mb-2">About Us</h2>
             <p className="text-sm leading-relaxed">
-              yourgamedestination.org offers a secure space for users to explore social casino games without real-money risks. Our focus is on fun and education, not on aggregating or affiliating with casino sites.
+            gamezones.info offers a secure space for users to explore social casino games without real-money risks. Our focus is on fun and education, not on aggregating or affiliating with casino sites.
             </p>
           </div>
 
