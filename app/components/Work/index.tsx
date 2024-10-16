@@ -4,7 +4,7 @@ import React from "react";
 
 const Home = () => {
   const game = {
-    imgSrc: "/game/icons/gameicon.png",
+    imgSrc: "/game/icons/icon-512.png",
     heading: "Egypt Slot",
     subheading: "Join quirky characters on a fun cartoon quest!",
     hiddenPara:
