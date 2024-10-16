@@ -5,20 +5,18 @@ const CookieConsent = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Check if the cookie consent has already been accepted
     const consent = Cookies.get('cookieConsent');
     if (!consent) {
-      setIsVisible(true); // Show the banner if consent has not been given
+      setIsVisible(true); 
     }
   }, []);
 
   const handleAccept = () => {
-    // Set the cookie to indicate consent
-    Cookies.set('cookieConsent', 'true', { expires: 365 }); // Expires in 365 days
-    setIsVisible(false); // Hide the banner
+    Cookies.set('cookieConsent', 'true', { expires: 365 }); 
+    setIsVisible(false);
   };
 
-  if (!isVisible) return null; // Do not render anything if not visible
+  if (!isVisible) return null; 
 
   return (
     <div style={{
@@ -35,7 +33,7 @@ const CookieConsent = () => {
       maxWidth: '400px',
       textAlign: 'center'
     }}>
-      <p>This website uses cookies to enhance the user experience.</p>
+      <p style={{ color: '#000000' }}>This website uses cookies to enhance the user experience.</p>
       <button onClick={handleAccept} style={{
         padding: '8px 16px',
         backgroundColor: '#961212',

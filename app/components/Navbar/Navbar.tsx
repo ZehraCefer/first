@@ -1,5 +1,5 @@
-import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import Drawer from "./Drawer";
@@ -12,16 +12,22 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-black bg-opacity-80 shadow-lg z-50 py-4">
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
-        <div className="flex items-center text-white text-2xl font-bold">
-          <Link href="/">Brand</Link>
-        </div>
+        <Link href="/">
+          <Image
+            src="images/Logo/gamezone.svg"
+            alt="Logo"
+            width={150} 
+            height={200}
+            className="cursor-pointer"
+          />
+        </Link>
 
         {/* Centered Nav Links */}
         <div className="hidden md:flex space-x-10 text-white text-lg">
           <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
           <Link href="#games" className="hover:text-yellow-400 transition">Games</Link>
           <Link href="#features" className="hover:text-yellow-400 transition">Features</Link>
-          <Link href="#faq" className="hover:text-yellow-400 transition">FAQ</Link>
+          <Link href="#faq-section" className="hover:text-yellow-400 transition">FAQ</Link>
           <Link href="/privacy" className="hover:text-yellow-400 transition">Privacy</Link>
         </div>
 

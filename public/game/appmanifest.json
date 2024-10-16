@@ -1,6 +1,6 @@
 {
-	"name": "Slot Toons",
-	"short_name": "Slot Toons",
+	"name": "Egypt Slot",
+	"short_name": "Egypt Slot",
 	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
@@ -37,5 +37,6 @@
 			"sizes": "512x512",
 			"type": "image/png"
 		}
-	]
+	],
+	"screenshots": []
 }

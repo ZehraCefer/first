@@ -11,10 +11,10 @@ interface Table {
 }
 
 const tableData: Table[] = [
-  { rank: 1, userName: "GamerGuru", imgSrc: "/images/Table/avatar5.svg", level: 55, gamesPlayed: 220, status: "Active" },
-  { rank: 2, userName: "PixelPrincess", imgSrc: "/images/Table/avatar4.svg", level: 52, gamesPlayed: 210, status: "Active" },
-  { rank: 3, userName: "XPWarrior", imgSrc: "/images/Table/avatar3.svg", level: 50, gamesPlayed: 195, status: "Active" },
-  { rank: 4, userName: "LuckyLynx", imgSrc: "/images/Table/avatar2.svg", level: 49, gamesPlayed: 185, status: "Active" },
+  { rank: 1, userName: "GamerGuru", imgSrc: "/images/Table/avatar1.png", level: 55, gamesPlayed: 220, status: "Active" },
+  { rank: 2, userName: "PixelPrince", imgSrc: "/images/Table/avatar2.png", level: 52, gamesPlayed: 210, status: "Active" },
+  { rank: 3, userName: "XPWarrior", imgSrc: "/images/Table/avatar3.png", level: 50, gamesPlayed: 195, status: "Active" },
+  { rank: 4, userName: "LuckyLynx", imgSrc: "/images/Table/avatar4.png", level: 49, gamesPlayed: 185, status: "Active" },
 ];
 
 const Table = () => {

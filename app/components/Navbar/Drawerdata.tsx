@@ -13,7 +13,7 @@ const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: false },
   { name: "Games", href: "#games", current: false },
   { name: "Features", href: "#features", current: false },
-  { name: "FAQ", href: "#faq", current: false },
+  { name: "FAQ", href: "#faq-section", current: false },
   { name: "Privacy", href: "/privacy", current: false },
 ];
 

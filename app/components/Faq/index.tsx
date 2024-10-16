@@ -12,58 +12,64 @@ const faqData: FaqData[] = [
   {
     heading: "1. What Are Social Casino Games?",
     subheading:
-      "Social casino games are primarily free-to-play, designed to mimic the gambling experience without providing real money rewards. Players use virtual in-app currency exclusively to enjoy these games.",
+      "Social casino games are free-to-play and designed to simulate a gambling experience without real cash prizes. Players use only virtual currency for gameplay.",
   },
   {
-    heading: "2. Do Social Casino Games Involve Real Money?",
+    heading: "2. Do Social Casino Games Use Real Money?",
     subheading:
-      "Social casino games do not involve real money. They are free-to-play and offer virtual currency for in-game activities. Since players cannot win actual cash, these games are intended purely for entertainment and enjoyment.",
+      "These games are free-to-play with virtual currency. Since there's no real cash involved, they’re meant purely for fun and entertainment.",
   },
   {
-    heading: "3. What Motivates People to Play Social Casino Games?",
+    heading: "3. Why Do People Play Social Casino Games?",
     subheading:
-      "People play social casino games for a variety of reasons, such as entertainment, social interaction, and the excitement of simulated gambling without the financial risk. These games typically offer captivating graphics, diverse themes, and the chance to connect with friends, enhancing the overall gaming experience.",
+      "People play these games for enjoyment, social connections, and the thrill of simulated gambling without financial risk. They often feature engaging visuals, themes, and options to interact with friends.",
   },
   {
-    heading: "4. What Is the Safety Level of Social Casino Games?",
+    heading: "4. Are Social Casino Games Safe?",
     subheading:
-      'Social casino games are generally safe since they do not involve real money transactions. However, players should be cautious of in-app purchases for virtual currency, as these can accumulate if not closely monitored. It\'s essential to play responsibly and stay within personal spending limits.',
+      'Social casino games are generally safe as they avoid real money transactions. However, players should be mindful of optional in-app purchases. It\'s best to play responsibly and keep track of spending.',
   },
 ];
 
 const Faq = () => {
   return (
     <div className="my-20 px-6" id="faq-section">
-      <h3 className="text-center text-4xl lg:text-5xl font-bold text-white mb-5">
-        Frequently Asked Questions
+      <h3 className="text-center text-5xl lg:text-6xl font-bold text-gray-50 mb-5">
+        Common Questions
       </h3>
-      <p className="text-center lg:text-lg font-normal text-white mb-10">
-        Find answers to the most common questions about social casino games.
-        Whether you&apos;re new to these games or a seasoned player, we have the information you need!
+      <p className="text-center lg:text-xl font-normal text-gray-300 mb-10">
+        Get quick answers to popular questions about social casino games. Whether you are just starting or a regular player, we’ve got you covered!
       </p>
 
-      <div className="mx-auto max-w-7xl">
-        <div className="grid md:grid-cols-2 gap-10">
-          {/* FAQ Cards */}
+      <div className="flex justify-center mb-12">
+        <Image
+          src="/images/Faq/faqillus.png"
+          alt="FAQ Illustration"
+          width={400}
+          height={400}
+          className="rounded-xl shadow-lg object-cover"
+        />
+      </div>
+
+      <div className="mx-auto max-w-6xl">
+        <div className="grid md:grid-cols-2 gap-8">
           {faqData.map((item, index) => (
             <div
               key={index}
-              className={`bg-gray-800 rounded-lg shadow-lg p-6 transition duration-300 hover:bg-gray-700 ${
-                index % 2 === 0 ? "md:mr-4" : "md:ml-4"
-              }`}
+              className="bg-gray-900 rounded-xl shadow-md p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
             >
               <Disclosure>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex justify-between items-center w-full text-lg font-medium text-white">
+                    <Disclosure.Button className="flex justify-between items-center w-full text-xl font-medium text-white">
                       <span>{item.heading}</span>
                       <ChevronUpIcon
                         className={`${
                           open ? "transform rotate-180" : ""
-                        } h-6 w-6 text-blue-400`}
+                        } h-6 w-6 text-blue-500 transition-transform`}
                       />
                     </Disclosure.Button>
-                    <Disclosure.Panel className="mt-3 text-white text-base">
+                    <Disclosure.Panel className="mt-4 text-gray-200 text-lg">
                       {item.subheading}
                     </Disclosure.Panel>
                   </>
@@ -71,17 +77,6 @@ const Faq = () => {
               </Disclosure>
             </div>
           ))}
-        </div>
-
-        {/* Illustration Section */}
-        <div className="flex justify-center mt-10">
-          <Image
-            src="/images/Faq/faqillus.png"
-            alt="FAQ Illustration"
-            width={800}
-            height={800}
-            className="rounded-lg shadow-lg object-contain"
-          />
         </div>
       </div>
     </div>
