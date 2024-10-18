@@ -1,40 +1,42 @@
-import { FaCoins, FaPlay, FaCogs } from "react-icons/fa";
+import { FaMoneyBillWave, FaSyncAlt, FaClipboardList } from "react-icons/fa";
 import React from "react";
+import styles from './Table.module.css';
 
 const slotGameSteps = [
   {
-    title: "Set Your Bet",
-    description: "Choose your coin size and number of paylines. Adjust the amount to match your desired bet.",
-    icon: FaCoins,
+    title: "Place Your Bet",
+    description: "Select your coin value and the number of paylines. Adjust your total to set your preferred wager.",
+    icon: FaMoneyBillWave,
   },
   {
     title: "Spin the Reels",
-    description: "Click the spin button to start the game. Watch the symbols as they spin and hope for a winning combination.",
-    icon: FaPlay,
+    description: "Press the spin button to initiate the game. Observe the symbols as they spin, hoping to land on a winning combination.",
+    icon: FaSyncAlt,
   },
   {
-    title: "Understand the Payouts",
-    description: "Check the paytable to see how much each symbol combination pays. Look out for special bonus features!",
-    icon: FaCogs,
+    title: "Know the Payouts",
+    description: "Refer to the paytable to see the payouts for different symbol combinations. Be aware of special bonus features!",
+    icon: FaClipboardList,
   },
 ];
 
 const HowToPlaySlots = () => {
   return (
-    <div className="mx-auto max-w-5xl pt-20 px-6 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="how-to-play-section">
-      <h3 className="col-span-full text-3xl text-center font-bold text-white mb-10">How to Play Slot Games</h3>
-      {slotGameSteps.map((step, i) => (
-        <div
-          key={i}
-          className="flex flex-col items-center justify-center bg-gradient-to-br from-blue-600 to-purple-600 shadow-lg rounded-2xl p-5 text-center transition duration-300 hover:shadow-2xl hover:scale-105"
-        >
-          <div className="text-white text-4xl mb-4">
-            <step.icon />
+    <div className={styles.container}>
+      <h3 className={styles.title}>
+        How to Play Slot Games
+      </h3>
+      <div className={styles.steps}>
+        {slotGameSteps.map((step, index) => (
+          <div key={index} className={styles.step}>
+            <div className={styles.icon}>
+              <step.icon />
+            </div>
+            <h4 className={styles.stepTitle}>{step.title}</h4>
+            <p className={styles.stepDescription}>{step.description}</p>
           </div>
-          <h4 className="text-2xl font-semibold text-white mb-2">{step.title}</h4>
-          <p className="text-white text-sm">{step.description}</p>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

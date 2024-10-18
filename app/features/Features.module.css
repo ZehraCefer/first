@@ -1,0 +1,127 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #ffc107;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  
+  .description {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1rem;
+    color: #93c5fd;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background: linear-gradient(to bottom right, #1E3A8A, #7C3AED);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .icon {
+    font-size: 4rem;
+    color: #ffc107;
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .textContainer {
+    text-align: center;
+  }
+  
+  .featureTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  .featureDescription {
+    font-size: 1rem;
+    color: #e5e7eb;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    .features {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .feature {
+      flex: 1 1 calc(33.33% - 20px);
+      text-align: center;
+    }
+  
+    .reverse {
+      flex-direction: column;
+    }
+  
+    .featureDescription {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .icon {
+      font-size: 3rem;
+    }
+  
+    .featureTitle {
+      font-size: 1.25rem;
+    }
+  
+    .featureDescription {
+      font-size: 0.9rem;
+    }
+  }
+  
