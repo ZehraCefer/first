@@ -1,0 +1,80 @@
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.headerTitle {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #b91c1c;
+    margin-bottom: 16px;
+}
+
+.headerText {
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+.simpleSection,
+.tradeSection,
+.ctaSection {
+    background: #dc2626;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.simpleSection {
+    background: #dc2626;
+}
+
+.tradeSection {
+    background: #1f2937;
+}
+
+.ctaSection {
+    background: #b69510;
+    color: #1f2937;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.sectionText {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.divider {
+    border-top: 4px solid #facc15;
+    margin: 40px 0;
+}
+
+.ctaTitle {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.ctaText {
+    font-size: 1.125rem;
+}

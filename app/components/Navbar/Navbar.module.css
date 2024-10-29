@@ -1,0 +1,140 @@
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background: rgb(210, 73, 5);
+    box-shadow: 0 4px 6px rgba(2, 137, 36, 0.1);
+    z-index: 50;
+    padding: 0.75rem 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navLinks {
+    display: none;
+}
+
+.playButton {
+    display: none;
+    background-color: #a80a0a;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.35rem 0.75rem; 
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.mobileMenuIcon {
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .navLinks {
+        display: flex;
+        gap: 2rem; 
+        color: white;
+        font-size: 0.875rem;
+    }
+
+    .navLink {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .navLink:hover {
+        color: #000000;
+    }
+
+    .playButton {
+        display: inline-block;
+    }
+
+    .mobileMenuIcon {
+        display: none;
+    }
+}
+
+.drawerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navLink {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navLink:hover {
+    color: #000000;
+}
+
+.navLinkActive {
+    color: #ff0000;
+}
+
+.playButton {
+    background-color: #a10606;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.35rem 0.75rem; 
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.drawer {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease-in-out;
+}
+
+.drawerOpen {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.drawerClosed {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem; 
+    right: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.drawerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 1rem;
+    gap: 1rem;
+}

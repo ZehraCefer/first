@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #E0E0E0; /* Light gray text */
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Navbar */
+html:not([data-scroll="0"]) .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1F1F1F; /* Darker navbar */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.4s ease;
+  z-index: 50;
+}
+
+/* Buttons */
+.navbutton, .play-button {
+  background-color: #FFD700; /* Yellow accent */
+  color: #121212;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px; /* Pill shape */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbutton:hover, .play-button:hover {
+  background-color: #FFC300; /* Darker yellow on hover */
+  transform: scale(1.05);
+}
+
+/* Card */
+.card-b {
+  background-color: #1E1E1E;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-b:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+  border: 1px solid #FFD700;
+}
+
+.hides {
+  display: none;
+}
+
+.card-b:hover > .hides {
+  display: block;
+}
+
+/* Links */
+a {
+  color: #E0E0E0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFD700;
+}
+
+/* Hover Underline */
+.hover-underline {
+  display: inline-flex;
+  position: relative;
+  color: #E0E0E0;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFD700;
+  transform-origin: bottom right;
+  transition: transform .25s ease-out;
+}
+
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Tables */
+.table-b {
+  background-color: #1E1E1E;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+/* Footer Icons */
+.footer-icons {
+  color: #FFD700;
+  transition: transform 0.3s ease;
+}
+
+.footer-icons:hover {
+  transform: translateY(-5px);
+}
+
+/* Borders */
+.verticalLine {
+  background: #FFD700;
+  opacity: 0.5;
+}
+
+/* Customize text colors */
+.text-yellow { color: #FFD700; }
+.text-gray { color: #E0E0E0; }
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 1s ease-out both;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 2s ease-out both;
+}
+
+.drop-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.drop-shadow-md {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
