@@ -7,7 +7,7 @@ const Terms = () => {
       <p style={styles.paragraph}>Please review these terms carefully before accessing or using any part of the website.</p>
 
       <p style={styles.paragraph}>
-        Welcome to onnicasino.com, including its subdomains, content, and brands, hereafter referred to as the "Website."
+        Welcome to onnicasino.com, including its subdomains, content, and brands, hereafter referred to as the &quot;Website,&quot;
         By accessing or using this Website, you confirm that you understand and agree to be legally bound by these terms
         and our Privacy Policy, forming a binding agreement with us. You can access our <strong>Privacy Policy</strong> here.
         Additionally, you waive any requirement for non-electronic signatures or original documents.

@@ -1,4 +1,5 @@
 import styles from './Simple.module.css';
+import Image from 'next/image';
 
 const crystals = [
   { 
@@ -24,7 +25,13 @@ const CrystalSection = () => {
       <div className={styles.container}>
         {crystals.map((crystal, index) => (
           <div key={index} className={`${styles.crystalCard} ${styles[`crystalCard${index + 1}`]}`}>
-            <img src={crystal.image} alt={crystal.title} className={`${styles.crystalImage} ${styles[`crystalImage${index + 1}`]}`} />
+            <Image
+              src={crystal.image}
+              alt={crystal.title}
+              className={`${styles.crystalImage} ${styles[`crystalImage${index + 1}`]}`}
+              width={300} 
+              height={300}
+            />
             <h2 className={styles.title}>{crystal.title}</h2>
             <p className={styles.description}>{crystal.description}</p>
           </div>
