@@ -26,20 +26,11 @@ const Navbar = () => {
         {/* Centered Nav Links */}
         <div className={styles.navLinks}>
           <Link href="/" className={styles.navLink}>Home</Link>
-          <Link href="#games" className={styles.navLink}>Game</Link>
+          {/* <Link href="#games" className={styles.navLink}>Game</Link> */}
           <Link href="/terms" className={styles.navLink}>Terms</Link>
           <Link href="/faq" className={styles.navLink}>FAQ</Link>
           <Link href="/privacy" className={styles.navLink}>Privacy</Link>
         </div>
-
-        {/* "Play" Button */}
-        <Link
-          href="/game/index.html"
-          className={styles.playButton}
-        >
-          Play Now
-        </Link>
-
         {/* Mobile Menu Icon */}
         <div className={styles.mobileMenuIcon}>
           <Bars3Icon className="h-8 w-8" onClick={() => setIsOpen(true)} />

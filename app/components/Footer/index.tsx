@@ -22,26 +22,12 @@ const Footer = () => {
           <div className={styles.section}>
             <h2 className={styles.heading}>About Us</h2>
             <p className={styles.subheading}>
-              We provide a secure platform for users to explore social casino games, emphasizing fun and education.
-              No real money play is possible on this site.
-
+              We are dedicated to offering a safe and enjoyable online platform where users can explore the exciting world
+              of social casino games. Our primary focus is on providing a unique gaming experience centered around entertainment, education,
+              and responsible play, without the risks associated with real-money gambling. Here, you can immerse yourself in social casino games
+              designed purely for fun and learning, helping to cultivate an understanding of the games in a risk-free environment.
             </p>
           </div>
-
-          {/* Quick Links Section */}
-          <div className={styles.section}>
-            <h3 className={styles.heading}>Quick Links</h3>
-            <ul className={styles.linksList}>
-              {["Home", "Games", "Features", "FAQ"].map((link, index) => (
-                <li key={index}>
-                  <Link href="/" className={styles.link}>
-                    {link}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Contact Us & Subscribe Section */}
           <div className={styles.section}>
             <h3 className={styles.heading}>Contact Us</h3>
@@ -72,11 +58,14 @@ const Footer = () => {
 
         {/* Responsible Gaming Section */}
         <div className={styles.responsibleGaming}>
-          <h4>Responsible Gaming</h4>
+          <h4>Commitment to Responsible Gaming</h4>
           <p>
-            You are solely responsible for controlling your gambling behaviour and seeking help. If you feel that your gambling habits are becoming problematic or addictive, please visit  <br></br>
-             <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer">www.gambleaware.org</a> or <br></br>
-             <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener noreferrer">www.gamcare.org.uk</a> for treatment options.
+            We are fully committed to promoting responsible gaming practices. It’s essential for players to maintain control
+            over their gaming activities and to seek assistance if needed. If you ever feel that your gaming habits are becoming difficult to manage
+            or are causing concern, help is available. For resources and support, we encourage you to visit: <br />
+            <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer">www.gambleaware.org</a> or <br />
+            <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener noreferrer">www.gamcare.org.uk</a>. These organizations
+            offer confidential help and treatment options to support safe and balanced gaming.
           </p>
 
 

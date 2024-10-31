@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://www.dafont.com/maximize-2.font');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,9 +6,9 @@
 @import "slick-carousel/slick/slick-theme.css";
 
 body {
-  font-family: 'Nunito', sans-serif;
-  background-color: #121212; /* Dark background */
-  color: #E0E0E0; /* Light gray text */
+  font-family: 'Maximize', sans-serif;
+  background-color: #121212; 
+  color: #E0E0E0;
 }
 
 html {

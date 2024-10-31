@@ -1,80 +1,81 @@
-.container {
-    max-width: 1280px;
-    margin: auto;
-    padding: 60px 20px;
+.crystalSection {
+    background-color: #000;
+    padding: 8rem 1rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 30px;
+  }
+  
+  .crystalCard {
     text-align: center;
-}
-
-.header {
-    margin-bottom: 50px;
-}
-
-.headerTitle {
-    font-size: 2.75rem;
-    font-weight: 700;
-    color: #b91c1c;
-    margin-bottom: 16px;
-}
-
-.headerText {
-    font-size: 1.125rem;
-    color: #ffffff;
-}
-
-.simpleSection,
-.tradeSection,
-.ctaSection {
-    background: #dc2626;
-    border-radius: 20px;
-    padding: 30px;
-    margin-bottom: 40px;
-    color: #ffffff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.simpleSection {
-    background: #dc2626;
-}
-
-.tradeSection {
-    background: #1f2937;
-}
-
-.ctaSection {
-    background: #b69510;
-    color: #1f2937;
-}
-
-.icon {
-    font-size: 3rem;
-    color: #ffc107;
-    margin-bottom: 20px;
-}
-
-.sectionTitle {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
-.sectionText {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 16px;
-}
-
-.divider {
-    border-top: 4px solid #facc15;
-    margin: 40px 0;
-}
-
-.ctaTitle {
-    font-size: 2.25rem;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
-.ctaText {
-    font-size: 1.125rem;
-}
+    color: #fff;
+  }
+  
+  .crystalImage {
+    margin: 0 auto;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .crystalImage:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 25px rgba(173, 216, 230, 0.7));
+  }
+  
+  .crystalImage1 {
+    width: 80px;
+  }
+  
+  .crystalImage2 {
+    width: 100px;
+  }
+  
+  .crystalImage3 {
+    width: 120px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: center;
+      gap: 3rem;
+    }
+  
+    .crystalImage1 {
+      width: 100px;
+    }
+  
+    .crystalImage2 {
+      width: 120px;
+    }
+  
+    .crystalImage3 {
+      width: 140px;
+    }
+  
+    .title {
+      font-size: 1.4rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+      max-width: 250px;
+      margin: 0 auto;
+    }
+  }
+  

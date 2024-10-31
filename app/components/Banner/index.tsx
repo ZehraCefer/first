@@ -1,25 +1,35 @@
-"use client";
+import Image from 'next/image';
 import Link from "next/link";
-import React from "react";
-import styles from "./Banner.module.css";
+import styles from './Banner.module.css';
 
 const Banner = () => {
   return (
-    <div className={styles.bannerContainer} id="home-section">
-      <div className={styles.contentOverlay}>
-        <h1 className={styles.bannerTitle}>
-          Have Fun with an <span className={styles.highlight}>Engaging Social Casino Game</span>
-        </h1>
-        <p className={styles.bannerSubtitle}>
-          Our site offers a FREE social casino game. Play responsibly and enjoy endless entertainment with
-          <span className={styles.highlight}> NO FINANCIAL RISKS</span>. This game is designed purely for fun and relaxation.
-        </p>
-
-        <Link href="/game/index.html">
-          <button className={styles.playButton}>Start the Fun!</button>
-        </Link>
+    <section className={styles.hero}>
+      <div className={styles.imageContainer}>
+        <Image
+          src="/images/Banner/bg.png"
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+          priority
+        />
+        <Image
+          src="/images/Banner/owl-character.png"
+          alt="Owl Character"
+          width={600}
+          height={600}
+          className={styles.owlCharacter}
+        />
+        <div className={styles.overlayContent}>
+          <h1 className={styles.title}>Play the Ultimate Free Slot Game!
+            <br />Enjoy unlimited spins with zero cost involved.
+            100% free fun and excitement, available anytime, anywhere!</h1>
+          <Link href="/game/index.html">
+            <button className={styles.playButton}>Play Now</button>
+          </Link>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

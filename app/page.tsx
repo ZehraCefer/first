@@ -24,10 +24,10 @@ export default function Home(props: Props) {
   return (
     <main>
       <Banner />
-      <Companies />
+      {/* <Companies />
       <Work />
       <Table />
-      <Features />
+      <Features /> */}
       <Simple />
       <CookieConsent />
     </main>
