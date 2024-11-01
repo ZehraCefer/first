@@ -3,7 +3,7 @@ import "@/node_modules/react-modal-video/scss/modal-video.scss";
 import Navbar from "./components/Navbar/index";
 import Footer from "./components/Footer/index";
 export const metadata = {
-  title: "Onni Casino",
+  title: "Social Casino Destination",
   description: "Best Social Casino",
   icons: {
     icon: "/favicon.svg",

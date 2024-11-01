@@ -3,19 +3,19 @@ import Image from 'next/image';
 
 const crystals = [
   { 
-    title: 'Discover a World of Sparkling Jewels', 
+    title: 'Entdecken Sie eine Welt funkelnder Juwelen', 
     image: '/images/Simple/crystal1.png', 
-    description: 'Step into a vibrant world of crystals, where each spin unveils a mesmerizing array of colorful gems. Perfect for a quick escape or a longer session of pure entertainment.' 
+    description: 'Tauchen Sie ein in eine lebendige Welt der Kristalle, in der jeder Dreh eine faszinierende Vielfalt an farbenfrohen Edelsteinen enthüllt. Perfekt für eine kurze Auszeit oder eine längere Unterhaltungssession.' 
   },
   { 
-    title: 'Step into a Dazzling Gemstone Journey', 
+    title: 'Betreten Sie eine glitzernde Edelsteinreise', 
     image: '/images/Simple/crystal2.png', 
-    description: 'Explore an array of dazzling gemstones, as the reels align in unique patterns, creating an exciting yet relaxing environment for players of all levels.' 
+    description: 'Erkunden Sie eine Vielzahl von funkelnden Edelsteinen, während sich die Walzen in einzigartigen Mustern ausrichten und eine aufregende, aber entspannende Atmosphäre für Spieler aller Stufen schaffen.' 
   },
   { 
-    title: 'Uncover the Magic of Sparkling Spins', 
+    title: 'Entdecken Sie die Magie funkelnder Drehungen', 
     image: '/images/Simple/crystal3.png', 
-    description: 'Perfect for both newcomers and seasoned players, Gems Slot offers a simple yet satisfying slot experience without any pressure. Just sit back, relax, and let the vibrant gems add a touch of color to your day.' 
+    description: 'Perfekt für Anfänger und erfahrene Spieler, bietet Gems Slot ein einfaches, aber zufriedenstellendes Slot-Erlebnis ohne Druck. Lehnen Sie sich einfach zurück, entspannen Sie sich und lassen Sie die leuchtenden Edelsteine Ihrem Tag etwas Farbe verleihen.' 
   },
 ];
 

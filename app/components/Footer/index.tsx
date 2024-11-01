@@ -9,7 +9,7 @@ const Footer = () => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    alert("Thank you for signing up!");
+    alert("Danke für Ihre Anmeldung!");
     setEmail("");
   };
 
@@ -20,21 +20,21 @@ const Footer = () => {
 
           {/* About Us Section */}
           <div className={styles.section}>
-            <h2 className={styles.heading}>About Us</h2>
+            <h2 className={styles.heading}>Über uns</h2>
             <p className={styles.subheading}>
-              We are dedicated to offering a safe and enjoyable online platform where users can explore the exciting world
-              of social casino games. Our primary focus is on providing a unique gaming experience centered around entertainment, education,
-              and responsible play, without the risks associated with real-money gambling. Here, you can immerse yourself in social casino games
-              designed purely for fun and learning, helping to cultivate an understanding of the games in a risk-free environment.
+              Wir bieten eine sichere und angenehme Online-Plattform, auf der Benutzer die aufregende Welt der sozialen Casino-Spiele erkunden können.
+              Unser Hauptfokus liegt auf einem einzigartigen Spielerlebnis, das Unterhaltung, Bildung und verantwortungsbewusstes Spielen in den Vordergrund stellt,
+              ohne die Risiken des Glücksspiels mit echtem Geld. Hier können Sie sich in soziale Casino-Spiele vertiefen, die ausschließlich für Spaß und Lernen entwickelt wurden,
+              und so ein Verständnis für die Spiele in einer risikofreien Umgebung entwickeln.
             </p>
           </div>
           {/* Contact Us & Subscribe Section */}
           <div className={styles.section}>
-            <h3 className={styles.heading}>Contact Us</h3>
+            <h3 className={styles.heading}>Kontaktieren Sie uns</h3>
             <p className={styles.subheading}>
-              Email us at:{" "}
-              <a href="mailto:contact@onnicasino.com" className={styles.link}>
-                contact@onnicasino
+              Schreiben Sie uns eine E-Mail an:{" "}
+              <a href="mailto:contact@socialcasinodestination.com" className={styles.link}>
+                contact@socialcasinodestination
               </a>
             </p>
             <form onSubmit={handleSubmit} className={styles.subscriptionForm}>
@@ -42,7 +42,7 @@ const Footer = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Subscribe with your email"
+                placeholder="Abonnieren Sie mit Ihrer E-Mail"
                 className={styles.input}
                 required
               />
@@ -50,7 +50,7 @@ const Footer = () => {
                 type="submit"
                 className={styles.button}
               >
-                Subscribe
+                Abonnieren
               </button>
             </form>
           </div>
@@ -58,16 +58,15 @@ const Footer = () => {
 
         {/* Responsible Gaming Section */}
         <div className={styles.responsibleGaming}>
-          <h4>Commitment to Responsible Gaming</h4>
+          <h4>Engagement für verantwortungsbewusstes Spielen</h4>
           <p>
-            We are fully committed to promoting responsible gaming practices. It’s essential for players to maintain control
-            over their gaming activities and to seek assistance if needed. If you ever feel that your gaming habits are becoming difficult to manage
-            or are causing concern, help is available. For resources and support, we encourage you to visit: <br />
-            <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer">www.gambleaware.org</a> or <br />
-            <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener noreferrer">www.gamcare.org.uk</a>. These organizations
-            offer confidential help and treatment options to support safe and balanced gaming.
+            Wir sind voll und ganz dem verantwortungsbewussten Spielen verpflichtet. Es ist wichtig, dass Spieler die Kontrolle über ihre
+            Spielaktivitäten behalten und bei Bedarf Unterstützung suchen. Wenn Sie das Gefühl haben, dass Ihre Spielgewohnheiten schwer zu kontrollieren sind oder Anlass zur Sorge geben,
+            steht Hilfe zur Verfügung. Für Ressourcen und Unterstützung empfehlen wir Ihnen, folgende Websites zu besuchen: <br />
+            <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer">www.gambleaware.org</a> oder <br />
+            <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener noreferrer">www.gamcare.org.uk</a>. Diese Organisationen
+            bieten vertrauliche Hilfe und Behandlungsmöglichkeiten für ein sicheres und ausgeglichenes Spielerlebnis.
           </p>
-
 
           {/* SVG Logos */}
           <div className={styles.logoContainer}>
@@ -75,7 +74,7 @@ const Footer = () => {
               <Image src="/gamcare.svg" alt="GamCare" width={120} height={30} />
             </a>
             <a href="/">
-              <Image src="/18+disclaimer.svg" alt="18+ Disclaimer" width={60} height={30} />
+              <Image src="/18+disclaimer.svg" alt="18+ Hinweis" width={60} height={30} />
             </a>
             <a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer">
               <Image src="/gamblingaware.svg" alt="Gamble Aware" width={120} height={30} />
@@ -86,9 +85,9 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className={styles.footerBottom}>
           <p>
-            © 2024 - All Rights Reserved by{" "}
-            <Link href="https://onnicasino.com/" target="_blank" className={styles.link}>
-              onnicasino.com
+            © 2024 - Alle Rechte vorbehalten von{" "}
+            <Link href="http://socialcasinodestination.com/" target="_blank" className={styles.link}>
+            socialcasinodestination.com
             </Link>
           </p>
         </div>

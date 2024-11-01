@@ -5,9 +5,9 @@ import { InformationCircleIcon, ShieldCheckIcon, UserCircleIcon } from '@heroico
 const Privacy = () => {
   return (
     <div className="max-w-2xl mx-auto p-8 bg-[#121212] rounded-lg shadow-md mt-12 mb-32">
-      <h1 className="text-4xl font-bold mb-6 text-white text-center">Privacy Policy</h1>
+      <h1 className="text-4xl font-bold mb-6 text-white text-center">Datenschutzerklärung</h1>
       <p className="text-white mb-6 text-lg text-center">
-        Your privacy is important to us. This policy outlines the types of data we collect, how we use it, and the steps we take to ensure its security.
+        Ihre Privatsphäre ist uns wichtig. Diese Richtlinie beschreibt die Arten von Daten, die wir sammeln, wie wir sie verwenden und die Schritte, die wir unternehmen, um deren Sicherheit zu gewährleisten.
       </p>
 
       <div className="space-y-8">
@@ -15,9 +15,9 @@ const Privacy = () => {
         <div className="flex items-start bg-[#121212] p-4 border-l-4 border-[#9013fe] rounded-lg transform transition-transform duration-300 hover:translate-y-[-4px] hover:shadow-lg">
           <InformationCircleIcon className="h-8 w-8 text-[#9013fe] mr-4 transition-transform duration-300 group-hover:scale-110" />
           <div>
-            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Information We Gather</h2>
+            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Informationen, die wir sammeln</h2>
             <p className="text-white text-base">
-              We collect certain personal information when you use our website, create an account, or contact us. This may include your name, email, and details about your interactions on our site.
+              Wir sammeln bestimmte persönliche Informationen, wenn Sie unsere Website nutzen, ein Konto erstellen oder uns kontaktieren. Dazu gehören möglicherweise Ihr Name, Ihre E-Mail-Adresse und Details zu Ihren Interaktionen auf unserer Seite.
             </p>
           </div>
         </div>
@@ -26,9 +26,9 @@ const Privacy = () => {
         <div className="flex items-start bg-[#121212] p-4 border-l-4 border-[#9013fe] rounded-lg transform transition-transform duration-300 hover:translate-y-[-4px] hover:shadow-lg">
           <ShieldCheckIcon className="h-8 w-8 text-[#9013fe] mr-4 transition-transform duration-300 group-hover:scale-110" />
           <div>
-            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Our Use of Your Data</h2>
+            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Unsere Verwendung Ihrer Daten</h2>
             <p className="text-white text-base">
-              We use the data we collect to improve our services, keep in touch with you, and make your experience more personalized and enjoyable on our platform.
+              Wir nutzen die gesammelten Daten, um unsere Dienstleistungen zu verbessern, mit Ihnen in Kontakt zu bleiben und Ihre Erfahrung auf unserer Plattform persönlicher und angenehmer zu gestalten.
             </p>
           </div>
         </div>
@@ -37,9 +37,9 @@ const Privacy = () => {
         <div className="flex items-start bg-[#121212] p-4 border-l-4 border-[#9013fe] rounded-lg transform transition-transform duration-300 hover:translate-y-[-4px] hover:shadow-lg">
           <UserCircleIcon className="h-8 w-8 text-[#9013fe] mr-4 transition-transform duration-300 group-hover:scale-110" />
           <div>
-            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Cookies and Tracking</h2>
+            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Cookies und Tracking</h2>
             <p className="text-white text-base">
-              We use cookies and similar tracking technologies to enhance your experience and analyze website traffic. These tools help us better understand your engagement with our site.
+              Wir verwenden Cookies und ähnliche Tracking-Technologien, um Ihre Erfahrung zu verbessern und den Website-Verkehr zu analysieren. Diese Tools helfen uns, Ihr Engagement auf unserer Seite besser zu verstehen.
             </p>
           </div>
         </div>
@@ -48,9 +48,9 @@ const Privacy = () => {
         <div className="flex items-start bg-[#121212] p-4 border-l-4 border-[#9013fe] rounded-lg transform transition-transform duration-300 hover:translate-y-[-4px] hover:shadow-lg">
           <ShieldCheckIcon className="h-8 w-8 text-[#9013fe] mr-4 transition-transform duration-300 group-hover:scale-110" />
           <div>
-            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Protecting Your Data</h2>
+            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Schutz Ihrer Daten</h2>
             <p className="text-white text-base">
-              We prioritize your data security with strict measures against unauthorized access, alteration, or loss, ensuring that your personal information remains safe.
+              Wir legen großen Wert auf die Sicherheit Ihrer Daten und setzen strenge Maßnahmen gegen unbefugten Zugriff, Änderungen oder Verlust ein, um sicherzustellen, dass Ihre persönlichen Informationen sicher bleiben.
             </p>
           </div>
         </div>
@@ -59,9 +59,9 @@ const Privacy = () => {
         <div className="flex items-start bg-[#121212] p-4 border-l-4 border-[#9013fe] rounded-lg transform transition-transform duration-300 hover:translate-y-[-4px] hover:shadow-lg">
           <InformationCircleIcon className="h-8 w-8 text-[#9013fe] mr-4 transition-transform duration-300 group-hover:scale-110" />
           <div>
-            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Your Privacy Rights</h2>
+            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Ihre Datenschutzrechte</h2>
             <p className="text-white text-base">
-              You are entitled to request access to your personal information held by us, as well as request updates or deletions. We are dedicated to honoring these rights in compliance with relevant laws.
+              Sie haben das Recht, Zugriff auf Ihre bei uns gespeicherten persönlichen Informationen zu verlangen sowie Aktualisierungen oder Löschungen zu beantragen. Wir sind bestrebt, diese Rechte im Einklang mit den geltenden Gesetzen zu achten.
             </p>
           </div>
         </div>
@@ -70,9 +70,9 @@ const Privacy = () => {
         <div className="flex items-start bg-[#121212] p-4 border-l-4 border-[#9013fe] rounded-lg transform transition-transform duration-300 hover:translate-y-[-4px] hover:shadow-lg">
           <UserCircleIcon className="h-8 w-8 text-[#9013fe] mr-4 transition-transform duration-300 group-hover:scale-110" />
           <div>
-            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Policy Updates</h2>
+            <h2 className="text-2xl font-semibold text-[#9013fe] mb-2">Aktualisierungen dieser Richtlinie</h2>
             <p className="text-white text-base">
-              We may update this policy periodically. Any changes will be posted here, and we encourage you to review it from time to time to stay informed about our practices.
+              Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Änderungen werden hier veröffentlicht, und wir empfehlen Ihnen, die Richtlinie gelegentlich zu überprüfen, um über unsere Praktiken informiert zu bleiben.
             </p>
           </div>
         </div>

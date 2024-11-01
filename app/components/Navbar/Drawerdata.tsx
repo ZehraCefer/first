@@ -10,11 +10,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: "Home", href: "/", current: false },
-  // { name: "Games", href: "#games", current: false },
-  { name: "Terms", href: "/terms", current: false },
+  { name: "Startseite", href: "/", current: false },
+  // { name: "Spiele", href: "#games", current: false },
+  { name: "Nutzungsbedingungen", href: "/terms", current: false },
   { name: "FAQ", href: "/faq", current: false },
-  { name: "Privacy", href: "/privacy", current: false },
+  { name: "Datenschutz", href: "/privacy", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -40,7 +40,7 @@ const Drawerdata = () => {
         href="/game/index.html"
         className={styles.playButton}
       >
-        Play Now
+        Jetzt spielen
       </Link>
     </div>
   );

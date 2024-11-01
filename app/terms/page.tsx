@@ -3,128 +3,121 @@
 const Terms = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Terms and Conditions</h1>
-      <p style={styles.paragraph}>Please review these terms carefully before accessing or using any part of the website.</p>
+      <h1 style={styles.heading}>Allgemeine Geschäftsbedingungen</h1>
+      <p style={styles.paragraph}>Bitte überprüfen Sie diese Bedingungen sorgfältig, bevor Sie auf Teile der Website zugreifen oder sie verwenden.</p>
 
       <p style={styles.paragraph}>
-        Welcome to onnicasino.com, including its subdomains, content, and brands, hereafter referred to as the &quot;Website,&quot;
-        By accessing or using this Website, you confirm that you understand and agree to be legally bound by these terms
-        and our Privacy Policy, forming a binding agreement with us. You can access our <strong>Privacy Policy</strong> here.
-        Additionally, you waive any requirement for non-electronic signatures or original documents.
-      </p>
-      <h2 style={styles.subheading}>1. Modifications</h2>
-      <p style={styles.paragraph}>
-        We reserve the right to alter these terms at any time. Updated terms take effect ten (10) days after being posted,
-        and continued use of the site signifies acceptance of these changes.
+        Willkommen bei socialcasinodestination.com, einschließlich seiner Subdomains, Inhalte und Marken, im Folgenden als &quot;Website&quot; bezeichnet.
+        Durch den Zugriff auf oder die Nutzung dieser Website bestätigen Sie, dass Sie diese Bedingungen und unsere
+        Datenschutzerklärung verstehen und akzeptieren, wodurch ein bindendes Vertragsverhältnis mit uns entsteht. Unsere <strong>Datenschutzerklärung</strong> finden Sie hier.
+        Zudem verzichten Sie auf jegliche Anforderungen an nicht-elektronische Unterschriften oder Originaldokumente.
       </p>
 
-      <h2 style={styles.subheading}>2. Age Requirements</h2>
+      <h2 style={styles.subheading}>1. Änderungen</h2>
       <p style={styles.paragraph}>
-        The Website is intended only for individuals aged 18 and over. If you are under 18, please do not use the Website.
+        Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Geänderte Bedingungen treten zehn (10) Tage nach ihrer Veröffentlichung in Kraft.
+        Durch die weitere Nutzung der Website akzeptieren Sie diese Änderungen.
       </p>
 
-      <h2 style={styles.subheading}>3. Website Usage</h2>
+      <h2 style={styles.subheading}>2. Altersanforderungen</h2>
       <p style={styles.paragraph}>
-        You are permitted to access and use the Website as long as you comply with these terms and all applicable laws.
+        Die Website ist nur für Personen ab 18 Jahren bestimmt. Wenn Sie unter 18 sind, nutzen Sie die Website bitte nicht.
       </p>
 
-      <h2 style={styles.subheading}>4. Usage Restrictions</h2>
+      <h2 style={styles.subheading}>3. Nutzung der Website</h2>
       <p style={styles.paragraph}>
-        You are prohibited from: (i) copying, modifying, or mirroring any Website content without permission; (ii) using
-        the content beyond personal use; (iii) disrupting website servers or networks; (iv) using automated tools to access
-        the Website; and (v) bypassing any Website restrictions.
+        Sie dürfen auf die Website zugreifen und diese nutzen, solange Sie diese Bedingungen und alle geltenden Gesetze einhalten.
       </p>
 
-      <h2 style={styles.subheading}>5. Intellectual Property</h2>
-
-      <h3 style={styles.subheading}>5.1 Ownership</h3>
+      <h2 style={styles.subheading}>4. Nutzungsbeschränkungen</h2>
       <p style={styles.paragraph}>
-        Content on this Website, including text, graphics, images, software, and trademarks, is our property or licensed to us
-        and is protected by intellectual property laws. Unauthorized use of this content is prohibited.
+        Es ist Ihnen untersagt: (i) Inhalte der Website ohne Genehmigung zu kopieren, zu verändern oder zu spiegeln; (ii) die Inhalte über den persönlichen Gebrauch hinaus zu verwenden;
+        (iii) Server oder Netzwerke der Website zu stören; (iv) automatisierte Tools zum Zugriff auf die Website zu verwenden; und (v) Website-Beschränkungen zu umgehen.
       </p>
 
-      <h3 style={styles.subheading}>5.2 Permitted Use</h3>
+      <h2 style={styles.subheading}>5. Geistiges Eigentum</h2>
+
+      <h3 style={styles.subheading}>5.1 Eigentum</h3>
       <p style={styles.paragraph}>
-        Content is provided for personal use only and may not be copied, altered, or distributed for any other purpose without
-        our written permission.
+        Inhalte auf dieser Website, einschließlich Texten, Grafiken, Bildern, Software und Marken, sind unser Eigentum oder an uns lizenziert und durch Urheberrechte geschützt.
+        Die unbefugte Nutzung dieser Inhalte ist untersagt.
       </p>
 
-      <h2 style={styles.subheading}>6. Third-Party Content</h2>
+      <h3 style={styles.subheading}>5.2 Erlaubte Nutzung</h3>
       <p style={styles.paragraph}>
-        <strong>6.1</strong> The Website may feature content from third parties, not owned or controlled by us. We are not responsible
-        for this content or its accuracy.
-      </p>
-      <p style={styles.paragraph}>
-        <strong>6.2</strong> We disclaim responsibility for third-party content, which may contain inaccuracies or objectionable
-        material. Interactions with third-party content are at your own risk.
+        Inhalte sind nur für den persönlichen Gebrauch bestimmt und dürfen ohne unsere schriftliche Genehmigung nicht kopiert, verändert oder für andere Zwecke weiterverbreitet werden.
       </p>
 
-      <h2 style={styles.subheading}>7. Content Accuracy</h2>
+      <h2 style={styles.subheading}>6. Inhalte Dritter</h2>
       <p style={styles.paragraph}>
-        While we strive for accuracy, we do not guarantee that Website content is complete or error-free. You assume any risks
-        related to using the content.
+        <strong>6.1</strong> Die Website kann Inhalte von Dritten enthalten, die nicht in unserem Besitz oder unter unserer Kontrolle stehen. Wir sind nicht für diese Inhalte oder deren Genauigkeit verantwortlich.
+      </p>
+      <p style={styles.paragraph}>
+        <strong>6.2</strong> Wir lehnen jegliche Verantwortung für Inhalte Dritter ab, die Ungenauigkeiten oder anstößiges Material enthalten können. Interaktionen mit Inhalten Dritter erfolgen auf eigenes Risiko.
       </p>
 
-      <h2 style={styles.subheading}>8. Information Disclosure</h2>
+      <h2 style={styles.subheading}>7. Inhaltliche Genauigkeit</h2>
       <p style={styles.paragraph}>
-        We may disclose collected information if necessary to comply with legal processes, enforce terms, or protect rights.
+        Obwohl wir uns um Genauigkeit bemühen, garantieren wir nicht, dass die Inhalte der Website vollständig oder fehlerfrei sind. Sie tragen das Risiko bei der Nutzung der Inhalte.
+      </p>
+
+      <h2 style={styles.subheading}>8. Offenlegung von Informationen</h2>
+      <p style={styles.paragraph}>
+        Wir können gesammelte Informationen offenlegen, wenn dies erforderlich ist, um rechtlichen Verfahren nachzukommen, die Bedingungen durchzusetzen oder Rechte zu schützen.
       </p>
 
       <h2 style={styles.subheading}>9. Links</h2>
 
       <p style={styles.paragraph}>
-        <strong>9.1</strong> Our Website may link to third-party sites. We are not liable for third-party content, policies,
-        or practices.
+        <strong>9.1</strong> Unsere Website kann Links zu Websites Dritter enthalten. Wir sind nicht für Inhalte, Richtlinien oder Praktiken Dritter verantwortlich.
       </p>
 
-      <h2 style={styles.subheading}>10. Privacy</h2>
+      <h2 style={styles.subheading}>10. Datenschutz</h2>
       <p style={styles.paragraph}>
-        Personal information is handled per our Privacy Policy, accessible in the Privacy section.
+        Persönliche Daten werden gemäß unserer Datenschutzerklärung behandelt, die im Bereich Datenschutz zugänglich ist.
       </p>
 
-      <h2 style={styles.subheading}>11. Disclaimer of Warranties</h2>
+      <h2 style={styles.subheading}>11. Haftungsausschluss</h2>
       <p style={styles.paragraph}>
-        <strong>11.1</strong> The Website is provided “as is,” without warranties. Certain laws may not allow such exclusions.
+        <strong>11.1</strong> Die Website wird &quot;wie besehen&quot; bereitgestellt, ohne Gewährleistungen. Bestimmte Gesetze können solche Ausschlüsse nicht zulassen.
       </p>
 
-      <h2 style={styles.subheading}>12. Limitation of Liability</h2>
+      <h2 style={styles.subheading}>12. Haftungsbeschränkung</h2>
       <p style={styles.paragraph}>
-        We are not liable for indirect damages or losses. Total liability, if applicable, is limited to $1,000.
+        Wir haften nicht für indirekte Schäden oder Verluste. Die Gesamthaftung, falls anwendbar, ist auf 1.000 USD begrenzt.
       </p>
 
-      <h2 style={styles.subheading}>13. Indemnification</h2>
+      <h2 style={styles.subheading}>13. Schadloshaltung</h2>
       <p style={styles.paragraph}>
-        You agree to indemnify us against any claims arising from your use of the Website.
+        Sie verpflichten sich, uns von jeglichen Ansprüchen freizustellen, die sich aus Ihrer Nutzung der Website ergeben.
       </p>
 
-      <h2 style={styles.subheading}>14. Termination</h2>
+      <h2 style={styles.subheading}>14. Kündigung</h2>
       <p style={styles.paragraph}>
-        We may terminate your access to the Website at any time. Upon termination, you must discontinue use.
+        Wir können Ihren Zugriff auf die Website jederzeit beenden. Nach Beendigung müssen Sie die Nutzung einstellen.
       </p>
 
-      <h2 style={styles.subheading}>15. Independent Relationship</h2>
+      <h2 style={styles.subheading}>15. Unabhängiges Verhältnis</h2>
       <p style={styles.paragraph}>
-        These terms do not create any partnership, agency, or employment relationship.
+        Diese Bedingungen begründen keine Partnerschaft, Agentur- oder Arbeitsverhältnis.
       </p>
 
-      <h2 style={styles.subheading}>16. Assignment</h2>
+      <h2 style={styles.subheading}>16. Abtretung</h2>
       <p style={styles.paragraph}>
-        We may assign these terms at our discretion; you may not.
+        Wir können diese Bedingungen nach eigenem Ermessen abtreten; Ihnen ist dies nicht gestattet.
       </p>
 
-      <h2 style={styles.subheading}>17. General</h2>
+      <h2 style={styles.subheading}>17. Allgemeines</h2>
       <p style={styles.paragraph}>
-        These terms are governed by Israeli law. Any legal action must be filed within one year.
-      </p>
-
-      <p style={styles.paragraph}>
-        You are responsible for monitoring gambling behavior and seeking assistance if needed. Visit gambleaware.org for
-        resources.
+        Diese Bedingungen unterliegen israelischem Recht. Klagen müssen innerhalb eines Jahres eingereicht werden.
       </p>
 
       <p style={styles.paragraph}>
-        The Website makes no guarantees regarding the accuracy of content within the game. The virtual currency has no real
-        value and cannot be redeemed for cash or goods.
+        Sie sind dafür verantwortlich, das eigene Spielverhalten zu überwachen und bei Bedarf Hilfe zu suchen. Besuchen Sie gambleaware.org für Hilfsressourcen.
+      </p>
+
+      <p style={styles.paragraph}>
+        Die Website übernimmt keine Garantie für die Genauigkeit der Inhalte im Spiel. Die virtuelle Währung hat keinen realen Wert und kann nicht in Bargeld oder Waren eingelöst werden.
       </p>
     </div>
   );
@@ -161,6 +154,5 @@ const styles: { [key: string]: React.CSSProperties } = {
     color: '#ffffff',
   },
 };
-
 
 export default Terms;

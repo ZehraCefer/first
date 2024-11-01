@@ -14,22 +14,23 @@ const Navbar = () => {
       <div className={styles.container}>
         {/* Logo */}
         <Link href="/">
-          <Image
-            src="/logo.svg"
-            alt="Logo"
-            width={150}
-            height={100}
-            className={styles.logo}
-          />
+          <div className={styles.logoContainer}>
+            <Image
+              src="/logo.svg"
+              alt="Logo"
+              fill
+              className={styles.logo}
+            />
+          </div>
         </Link>
 
         {/* Centered Nav Links */}
         <div className={styles.navLinks}>
-          <Link href="/" className={styles.navLink}>Home</Link>
-          {/* <Link href="#games" className={styles.navLink}>Game</Link> */}
-          <Link href="/terms" className={styles.navLink}>Terms</Link>
+          <Link href="/" className={styles.navLink}>Startseite</Link>
+          {/* <Link href="#games" className={styles.navLink}>Spiel</Link> */}
+          <Link href="/terms" className={styles.navLink}>Nutzungsbedingungen</Link>
           <Link href="/faq" className={styles.navLink}>FAQ</Link>
-          <Link href="/privacy" className={styles.navLink}>Privacy</Link>
+          <Link href="/privacy" className={styles.navLink}>Datenschutz</Link>
         </div>
         {/* Mobile Menu Icon */}
         <div className={styles.mobileMenuIcon}>

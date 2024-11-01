@@ -38,7 +38,7 @@ const Features = () => {
           Your Go-To Resource for Social Casino Insights
         </h2>
         <p className={styles.description}>
-          At onnicasino.com, we are committed to delivering the highest standards of security and user experience. Our mission is to provide you with reliable information about social casino games while ensuring your data remains safe. With a focus on user education and transparency, we aim to be your trusted partner in exploring the vibrant world of social gaming.
+          At socialcasinodestination.com, we are committed to delivering the highest standards of security and user experience. Our mission is to provide you with reliable information about social casino games while ensuring your data remains safe. With a focus on user education and transparency, we aim to be your trusted partner in exploring the vibrant world of social gaming.
         </p>
       </div>
       <div className={styles.features}>
